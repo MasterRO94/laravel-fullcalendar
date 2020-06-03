@@ -12,6 +12,9 @@
         "php": ">=5.4.0",
         "illuminate/support": "~5.0|6.*|7.*"
     },
+    "replace": {
+        "maddhatter/laravel-fullcalendar": "self.version"
+    },
     "autoload": {
         "psr-0": {
             "MaddHatter\\LaravelFullcalendar": "src/"
