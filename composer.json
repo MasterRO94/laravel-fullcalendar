@@ -1,5 +1,5 @@
 {
-    "name": "maddhatter/laravel-fullcalendar",
+    "name": "masterro/laravel-fullcalendar",
     "description": "Laravel helper for FullCalendar.io",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "~5.0"
+        "illuminate/support": "~5.0|6.*|7.*"
     },
     "autoload": {
         "psr-0": {
@@ -27,5 +27,6 @@
             }
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
